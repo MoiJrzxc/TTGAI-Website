@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     scroll-behavior: smooth;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -12,85 +12,21 @@ body {
 }
 
 
-.container{
-  padding: 10px 10%;
+.container {
+    padding: 10px 10%;
 }
 
-.row{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
-}
-
-/* Navigation Bar */
-
-nav {
-    background-color:   #2E77AE;
-    height: 100px;
-    width: 100%;
+.row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.644);
-    position: fixed;
-    z-index: 1;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
-.logo {
-    width: 80px;
-    height: auto;
-    border-radius: 40px 40px 40px 40px;
-    margin-left: 20px;
+#header {
+    background-image: url('5.jpg');
+    background-size: cover;
 }
-
-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin-right: 40px;
-    justify-content: center;
-}
-
-nav ul li a {
-    color: white;
-    font-size: 16px;
-    padding: 10px 5px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-button {
-    background-color: #ff8b2b;
-    color: #000000;
-    border: none;
-    margin: none;
-    padding: 5px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-style: bold;
-    height: 30px;
-    font-style: bold;
-}
-
-#button:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
 
 /* Header / Home */
 
@@ -109,7 +45,8 @@ button {
     left: 0;
     height: 90vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black overlay with 50% opacity */
 }
 
 .header-text {
@@ -127,12 +64,12 @@ button {
 .header-text p {
     font-size: 30px;
     color: #ffffff;
-    margin-bottom: 0%;  
+    margin-bottom: 0%;
 }
 
 .header-text h1 {
     font-weight: bolder;
-    width: 60%;
+    width: 70%;
 }
 
 .header-text p {
@@ -160,7 +97,7 @@ button {
 }
 
 .about-header h2 {
- margin: 20px;
+    margin: 20px;
 }
 
 .about-images img {
@@ -219,43 +156,45 @@ button {
     font-size: 40px;
     margin-bottom: 20px;
 }
+
 .subscribe p {
     margin-top: 50%;
 }
 
-.subscribe form{
-  width: 100%;
+.subscribe form {
+    width: 100%;
 }
 
-form input, form textarea{
-  width: 300px;
-  border: 0;
-  outline: none;
-  background: #414141;
-  margin: 15px 0;
-  padding: 15px;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-  border-radius: 6px;
+form input,
+form textarea {
+    width: 300px;
+    border: 0;
+    outline: none;
+    background: #414141;
+    margin: 15px 0;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 6px;
 }
 
 input {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-  font-weight: 500;
-  font-size: .8vw;
-  color: #000000;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
-  border-radius: 0.4vw;
-  border: none;
-  outline: none;
-  padding: 0.4vw;
-  width: 100%;
-  max-width: 190px;
-  transition: .4s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: .8vw;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 0.4vw;
+    width: 100%;
+    max-width: 190px;
+    transition: .4s;
 }
 
- 
+
 .contact h1 {
     font-size: 40px;
     margin-bottom: 20px;
